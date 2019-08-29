@@ -1,0 +1,123 @@
+*{
+    /* border:0;
+    font-size:100%; */
+    margin:0;
+    padding:0;
+    vertical-align:baseline;
+}
+body{
+    padding: 50px 200px 50px 200px;
+    vertical-align: baseline;
+    color: rgb(138, 136, 136);
+    font-size: 16px;
+    background-color: rgb(44, 44, 44);
+    font-family: 'Alegreya Sans', sans-serif;
+}
+article, section{
+    display: block;
+}
+#content{
+    /* width: 90%; */
+    /* max-width: 800px; */
+    margin: 30px auto;
+    padding: 10px 20px 10px 20px;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    color: rgb(182, 179, 179);
+}
+a:hover{
+    color:black;
+    text-decoration: underline;
+}
+p{
+    color: rgb(138, 136, 136);
+    /* margin-bottom: 20px; */
+    line-height: 1.4em;
+    font-size: 1em;
+}
+#head{
+    padding: 25px 35px 140px 20px;
+	border-bottom: 2px solid #ffcb62;
+}
+#maintitle h1{
+    color: #ffcb62;
+    font-style: italic;
+    font-size: 1.3em;
+    margin-right: 100px;
+}
+#maincontent{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#maincontent ul{
+    list-style-type: none;
+}
+#maincontent ul li{
+    line-height: 1.4em;
+}
+#maincontent h2{
+    padding-top: 5px;
+}
+#period{
+    font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+#name h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: -6px;
+}
+#name h2{
+    font-size: 2em;
+	margin-left: 2px;
+}
+div h2{
+    font-size: 1.1em;
+}
+#main{
+	padding: 0 40px;
+}
+#headshot{
+    float: left;
+    width: 12.5%;
+    margin-right: 30px;
+}
+#headshot img{
+    width: 70%;
+    height: auto;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+#name{
+    float: left;
+}
+#contact{
+    float: right;
+}
+#contact ul {
+	list-style-type: none;
+    font-size: 0.9em;
+    margin-top: 2px;
+}
+#contact ul li{
+    margin-bottom: 3px;
+}
+
+
+/* section:first-child {
+	border-top: 0;
+}
+section:last-child {
+	padding: 20px 0 10px;
+} */
+/* #maintitle {
+	float: left;
+	width: 25%;
+} */
+/* #maincontent{
+    float: right;
+    width: 72.5%
+} */
