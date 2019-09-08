@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, Bootstrap, JavaScript, WordPress, Frontend Developer">
+    <meta name="description" content="Curriculum Vitae">
+    <meta name="author" content="Precious Odeleye">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="precious.css">
@@ -13,7 +16,7 @@
 <!-- Header -->
         <div id="head">
             <div id="headshot">
-                <img src="C:\Users\USER\Desktop\startNG tasks\IMG-571667.jpg" alt="Precious' cv">
+                <img src="IMG-571667.jpg" alt="Precious' cv">
             </div>
             <div id="name">
                 <h1>Precious Omotola Odeleye</h1>
@@ -132,14 +135,18 @@
                     <td>
                         <div id="maincontent">
                             <ul>
-                                <li>AutoCAD and CorelDraw design</li>
-                                <li>HTML, CSS, Bootstrap and JavaScript.</li>
-                                <li>Article, creative and SEO content writing</li>
                                 <li>Fast learner</li>
                                 <li>Team Work</li>
                                 <li>Creativity</li>
                                 <li>Microsoft Office skills</li>
                                 <li>Communication skills</li>
+                                <li>HTML (1 year)</li>
+                                <li>CSS (1 year)</li>
+                                <li>WordPress (1 year)</li>
+                                <li>Article, creative and SEO content writing (1 year)</li>
+                                <li>Bootstrap (Less than 1 year)</li>
+                                <li>AutoCAD and CorelDraw design (Less than 1 year)</li>
+                                <li>JavaScript (Studying)</li>
                             </ul>
                         </div>
                     </td>
@@ -160,6 +167,30 @@
             <footer>
                 <h3>REFERENCES ARE AVAILABLE ON REQUEST</h3>
             </footer>
+        </div>
+<!-- Contact Form -->
+        <div class="kontact">
+            <h1>CONTACT ME</h1>
+            <div id="kontact">
+                <form action="submit.php" id="cvForm"  method="post">
+                    <label for="fname"><b>First Name</b></label>
+                    <input type="text" id="fname" name="name" minlength="4" placeholder="Your name..." required>
+
+                    <label for="lname"><b>Last Name</b></label>
+                    <input type="text" id="lname" name="name" minlength="4" placeholder="Your last name..." required>
+
+                    <label for="mail"><b>Email</b></label>
+                    <input pattern="[^ @]*@[^ @]*" type="text" name="email" id="mail" placeholder="Your Email..." required>
+
+                    <label for="title"><b>Title</b></label>
+                    <input type="text" name="title" id="title" placeholder="Title..." required>
+
+                    <label for="message"><b>Message</b></label>
+                    <input type="text" name="message" id="message" minlength="20" placeholder="Message..." required>
+
+                    <input type="submit" value="SUBMIT">
+                </form>
+            </div>
         </div>
     </div>
 </body>
