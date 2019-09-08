@@ -14,3 +14,5 @@ fclose($f);
 
 echo "<script type='text/javascript'>alert('Thanks for contacting me! I'll get back to you soon')</script>";
 echo "<script type='text/javascript'>document.location='index.html'</script>";
+
+?>
