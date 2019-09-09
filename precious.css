@@ -1,0 +1,125 @@
+*{
+    /* border:0;
+    font-size:100%; */
+    margin:0;
+    padding:0;
+    vertical-align:baseline;
+}
+body{
+    padding: 50px 200px 50px 200px;
+    vertical-align: baseline;
+    color: rgb(138, 136, 136);
+    /* font-size: 16px; */
+    background-color: rgb(44, 44, 44);
+    font-family: 'Alegreya Sans', sans-serif;
+}
+article, section{
+    display: block;
+}
+.container{
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 10px 20px 10px 20px;
+}
+.header{
+    padding-top: 20px;
+}
+.header img{
+    border-radius: 50px;
+    width: 90px;
+    height: 150px;
+    margin: 0px 0px 0px 20px;
+}
+.header h1{
+    padding-top: 25px;
+}
+.header h2{
+    padding-left: 5px;
+}
+.header li{
+    list-style-type: none;
+    line-height: 1.2em;
+    font-size: 0.85em;
+}
+.header a{
+    text-decoration: none;
+    color: rgb(182, 179, 179);
+    line-height: 1.4em;
+    font-size: 1em;
+}
+.header a:hover{
+    color:black;
+    text-decoration: underline;
+}
+.headlinks{
+    /* border: 1px solid black; */
+    padding: 30px 0px 0px 0px;
+    /* margin-left: 10px; */
+}
+.header ul{
+    /* border: 1px solid black;  */
+    margin: 0px;
+}
+hr{
+    border-top: 1px solid #faba3b;
+}
+h4{
+    /* border: 1px solid #000; */
+    padding-right: 150px;
+    padding-left: 20px;
+}
+.rowcontent{
+    /* border: 1px solid #000; */
+    padding-left: 70px;
+    /* margin-left: 30px; */
+    margin-right: 0px;
+}
+.edu{
+    line-height: 1em;
+}
+footer{
+    text-align: center;
+}
+
+/* Contact Form */
+.kontact h1{
+    color: rgb(138, 136, 136);
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 60px;
+    border-bottom: 1px solid #ccc;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: 200;
+}
+input[type=submit]{
+    width: 100%;
+    border: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    background-color: #faba3b;
+    color: rgb(138, 136, 136);
+    font-size: 1em;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #ccc;
+    color: white;
+}
+::placeholder{
+    color: rgb(196, 194, 194)
+}
+#kontact{
+    margin-top: 20px;
+}
+label{
+    color: #faba3b;
+}
